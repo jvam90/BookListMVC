@@ -14,7 +14,7 @@ namespace BookListMVC.Controllers
         private readonly ApplicationDBContext _db;
         [BindProperty]
         public Book Book { get; set; }
-
+        //addcomentario
         public BooksController(ApplicationDBContext db)
         {
             _db = db;
